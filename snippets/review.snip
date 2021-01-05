@@ -1,0 +1,113 @@
+snippet					@
+	@<${1:inline}>{${0}}
+
+snippet					column1
+	=[column]	${1:title}
+	
+	${0}
+	
+	=[/column]
+
+snippet					column2
+	==[column]	${1:title}
+
+	${0}
+
+	==[/column]
+
+snippet					column3
+	===[column]	${1:title}
+	
+	${0}
+	
+	===[/column]
+
+snippet					column4
+	====[column]	${1:title}
+
+	${0}
+
+	====[/column]
+
+snippet					=
+alias							Chapter	cha
+	=	${1:title}
+	
+	${0}
+
+	
+snippet					==
+alias							Section	sec
+	==	${1:title}
+	
+	${0}
+
+
+snippet					===
+alias							SubSection	sub
+	===	${1:title}
+	
+	${0}
+
+
+snippet					====
+alias							SubSubSection1	ssub1
+	====	${1:title}
+	
+	${0}
+
+
+snippet					=====
+alias							SubSubSection2	ssub2
+	=====	${1:title}
+	
+	${0}
+
+
+snippet					======
+alias							SubSubSection3	ssub3
+	======	${1:title}
+
+	${0}
+
+snippet					list
+	//list[${1:identifier}][${2:caption}][${3:language}]{
+		${0}
+	//}
+
+snippet					listnum
+	//listnum[${1:identifier}][${2:caption}][${3:language}]{
+		${0}
+	//}
+
+snippet					emlist
+	//emlist[${1:identifier}][${2:caption}][${3:language}]{
+	${0}
+	//}
+
+snippet					emlistnum
+	//emlistnum[${1:identifier}][${2:caption}][${3:language}]{
+	${0}
+	//}
+
+snippet					image
+	//image[${1:file_name}][${2:caption}]{//}
+
+	${0}
+
+snippet					indepimage
+	//indepimage[${1:file_name}][${2:caption}]
+
+	${0}
+
+snippet					numberlessimage
+	//numberlessimage[${1:file_name}][${2:caption}]
+
+	${0}
+
+snippet     //
+	//${1:Topic}[${2:caption}]{
+
+		${0}}
+
+	//}
